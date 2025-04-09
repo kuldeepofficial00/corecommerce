@@ -1,3 +1,3 @@
-# 📦 CoreCommerce — Headless B2B E-Commerce & Warehouse Inventory Engine
+# CoreCommerce
 
-High-throughput B2B commerce and inventory allocation engine.
+B2B Commerce & Inventory Allocation Engine.

@@ -1,2 +1,4 @@
 const mongoose = require('mongoose');
-module.exports = mongoose.model('Product', new mongoose.Schema({ sku: { type: String, unique: true }, title: String, description: String, basePrice: Number, wholesalePrice: Number, moq: { type: Number, default: 1 } }, { timestamps: true }));
+const pSchema = new mongoose.Schema({ sku: { type: String, unique: true }, title: String, basePrice: Number, wholesalePrice: Number });
+pSchema.index({ sku: 1, title: 'text' });
+module.exports = mongoose.model('Product', pSchema);

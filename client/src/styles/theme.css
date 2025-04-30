@@ -1,0 +1,2 @@
+:root { --ops-bg: #0d1117; --ops-card: #161b22; --ops-accent: #238636; --ops-text: #c9d1d9; }
+body { background: var(--ops-bg); color: var(--ops-text); font-family: -apple-system, sans-serif; margin: 0; }

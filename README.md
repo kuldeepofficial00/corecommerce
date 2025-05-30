@@ -1,3 +1,3 @@
 # CoreCommerce
 
-Full B2B commerce and fulfillment platform.
+High-throughput B2B commerce and inventory allocation engine.

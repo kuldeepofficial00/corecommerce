@@ -1,2 +1,2 @@
 import React from 'react';
-export default ({ products = [] }) => <table><thead><tr><th>SKU</th><th>Title</th><th>Base Price</th></tr></thead></table>;
+export default () => <div><h3>Wholesale Catalog with Tier Discounts</h3></div>;

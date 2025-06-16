@@ -1,5 +1,4 @@
 const express = require('express');
 const app = express();
-app.use(express.json());
-app.use('/api/v1/transfers', require('./routes/transferRoutes'));
+app.get('/health', (req, res) => res.status(200).json({ status: 'healthy', timestamp: new Date() }));
 module.exports = app;

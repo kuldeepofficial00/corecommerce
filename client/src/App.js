@@ -1,6 +1,2 @@
-import React from 'react';
-import Header from './components/Header';
-import WarehouseGrid from './components/WarehouseGrid';
-import './styles/theme.css';
-import './styles/responsive.css';
-export default () => <div><Header /><WarehouseGrid /></div>;
+import React, { useState } from 'react';
+export default () => { const [tab, setTab] = useState('inventory'); return <div>CoreCommerce [{tab}]</div>; };

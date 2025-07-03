@@ -1,4 +1,4 @@
 const express = require('express');
 const app = express();
-app.get('/health', (req, res) => res.status(200).json({ status: 'healthy', timestamp: new Date() }));
+app.use(require('./middleware/security'));
 module.exports = app;
